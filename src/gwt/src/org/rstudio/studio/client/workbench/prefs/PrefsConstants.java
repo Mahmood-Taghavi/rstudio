@@ -1726,6 +1726,15 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     String frenchLabel();
 
     /**
+     * Translated "Persian (فارسی)".
+     *
+     * @return translated "Persian (فارسی)"
+     */
+    @DefaultMessage("Persian (فارسی)")
+    @Key("persianLabel")
+    String persianLabel();
+
+    /**
      * Translated "Show .Last.value in environment listing".
      *
      * @return translated "Show .Last.value in environment listing"
